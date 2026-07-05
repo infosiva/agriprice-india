@@ -29,7 +29,7 @@ export default function Navbar() {
             <span style={{ color: '#d97706' }}>Rates</span>
           </span>
           <span className="hidden sm:inline text-[10px] font-bold px-2 py-0.5 rounded-full"
-            style={{ background: 'rgba(22,163,74,0.10)', color: '#16a34a', border: '1px solid rgba(22,163,74,0.2)' }}>
+            style={{ background: '#dcfce7', color: '#15803d', border: '1px solid #86efac' }}>
             LIVE
           </span>
         </Link>
