@@ -56,7 +56,7 @@ export default async function HomePage() {
     <div style={{ background: 'var(--bg)', color: 'var(--text)', minHeight: '100vh' }}>
 
       {/* ── HERO — data-first, no wasted space ── */}
-      <section style={{ background: 'linear-gradient(180deg, #fff7ed 0%, #fffbf5 100%)', borderBottom: '1px solid rgba(217,119,6,0.14)', padding: '28px 0 20px' }}>
+      <section style={{ background: 'linear-gradient(180deg, #eef6ea 0%, #f7faf5 100%)', borderBottom: '1px solid rgba(22,163,74,0.14)', padding: '28px 0 20px' }}>
         <div className="max-w-6xl mx-auto px-4">
 
           {/* Top row: headline + live badge */}
@@ -161,7 +161,7 @@ export default async function HomePage() {
               <div className="data-card overflow-hidden">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr style={{ background: 'rgba(217,119,6,0.08)', borderBottom: '1px solid rgba(217,119,6,0.14)' }}>
+                    <tr style={{ background: 'rgba(217,119,6,0.08)', borderBottom: '1px solid rgba(22,163,74,0.14)' }}>
                       <th className="px-4 py-2.5 text-left font-semibold" style={{ color: '#b45309' }}>Crop</th>
                       <th className="px-4 py-2.5 text-right font-semibold" style={{ color: '#b45309' }}>Min</th>
                       <th className="px-4 py-2.5 text-right font-semibold" style={{ color: '#b45309' }}>Modal</th>
@@ -243,7 +243,7 @@ export default async function HomePage() {
             <div className="data-card overflow-hidden">
               <table className="w-full text-sm">
                 <thead>
-                  <tr style={{ background: 'rgba(217,119,6,0.08)', borderBottom: '1px solid rgba(217,119,6,0.14)' }}>
+                  <tr style={{ background: 'rgba(217,119,6,0.08)', borderBottom: '1px solid rgba(22,163,74,0.14)' }}>
                     <th className="px-4 py-3 text-left font-semibold" style={{ color: '#b45309' }}>Commodity</th>
                     <th className="px-4 py-3 text-right font-semibold hidden sm:table-cell" style={{ color: '#92765a' }}>Min ₹</th>
                     <th className="px-4 py-3 text-right font-semibold" style={{ color: '#b45309' }}>Modal ₹</th>

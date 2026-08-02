@@ -108,7 +108,6 @@ export default function RootLayout({
         <FloatingChatWrapper />
         <FeedbackWidget siteName="MandiRates" position="left" />
         <CookieConsent />
-        <Script defer data-site="mandirates.app" src="http://31.97.56.148:3098/t.js" strategy="afterInteractive" />
       </body>
     </html>
   );

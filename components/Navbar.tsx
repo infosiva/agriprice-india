@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <span style={{
             width: 26, height: 26, borderRadius: 7,
-            background: 'linear-gradient(135deg, #9a3412, #ea580c)',
+            background: 'linear-gradient(135deg, #15803d, #16a34a)',
             display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
           }}>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
