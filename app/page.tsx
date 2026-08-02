@@ -158,7 +158,7 @@ export default async function HomePage() {
 
             {/* TN full table */}
             {tnSummaries.length > 4 && (
-              <div className="data-card overflow-hidden">
+              <div className="data-card overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
                     <tr style={{ background: 'rgba(217,119,6,0.08)', borderBottom: '1px solid rgba(22,163,74,0.14)' }}>
@@ -240,7 +240,7 @@ export default async function HomePage() {
                 Source: Agmarknet · Updated {lastUpdated}
               </span>
             </div>
-            <div className="data-card overflow-hidden">
+            <div className="data-card overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ background: 'rgba(217,119,6,0.08)', borderBottom: '1px solid rgba(22,163,74,0.14)' }}>
